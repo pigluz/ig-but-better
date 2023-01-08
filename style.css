@@ -5,6 +5,17 @@ body {
     background-color: rgb(247, 247, 247);
 }
 
+b {
+    cursor: pointer;
+}
+
+hr {
+    position: relative;
+    bottom:40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+/*header area*/
 .header {
     height: 50px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.171);
@@ -33,6 +44,7 @@ body {
     margin-bottom: 30px;
 }
 
+/*storytab area*/
 .storytab {
     border: 1px solid rgba(0, 0, 0, 0.171);
     border-radius: 10px;
@@ -83,6 +95,7 @@ body {
     cursor:pointer
 }
 
+/*post area*/
 .post {
     border: 1px solid rgba(0, 0, 0, 0.171);
     border-radius: 10px;
@@ -127,18 +140,14 @@ height: 500px;
     margin-right: 5px;
 }
 
-#likedby {
+#liked-by {
     position: relative;
     bottom:40px;
     margin-left: 44px;
     font-size: 15px;
 }
 
-b {
-    cursor: pointer;
-}
-
-#likedby-avatar {
+#liked-by-avatar {
     border-radius: 100px;
     width: 25px;
     height: 25px;
@@ -148,13 +157,13 @@ b {
     cursor:pointer
 }
 
-#author-decr {
+#post-decr {
     position: relative;
     bottom:40px;
     margin-left: 15px;
 }
 
-#view-more {
+#view-more-comms {
     color: rgba(0, 0, 0, 0.418);
     cursor: pointer;
     position:relative;
@@ -168,7 +177,7 @@ b {
     margin-left: 15px;
 }
 
-#howold {
+#how-old {
     color: rgba(0, 0, 0, 0.418);
     font-size: 12px;
     position: relative;
@@ -176,11 +185,6 @@ b {
     margin-left: 15px;
 }
 
-hr {
-    position: relative;
-    bottom:40px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
 
 #emoji-select {
     position: relative;
@@ -209,6 +213,7 @@ hr {
     left: 190px;
 }
 
+/*suggested for you tab*/
 #avatar-about {
     height: 80px;
     width: 80px;
@@ -219,7 +224,7 @@ hr {
     cursor: pointer;
 }
 
-#op-name-about {
+#name-about {
     position: relative;
     bottom: 1195px;
     left: 1150px;
@@ -271,6 +276,7 @@ hr {
 
 }
 
+/*footer area*/
 .footer {
     position: relative;
     left: 1065px;
