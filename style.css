@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+.header {
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+    background-color: white
+}
+
+#searcharea {
+    background-color: rgba(226, 226, 226, 0.705);
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    padding-left: 50px;
+    position: relative;
+    left: 800px;
+    bottom: 48px;
+}
+
+#topbar {
+    position: relative;
+    left: 1150px;
+    bottom: 90px;
+    cursor: pointer;
+    margin-right: 500px;
+    margin-bottom: 30px;
+}
+
+.storytab {
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    background-color: white;
+    width: 480px;
+    height: 130px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 520px;
+}
+
+#story-avatar1 {
+    position: relative;
+    left: 23px;
+    top: 20px;
+    width: 70px;
+    margin-bottom: none;
+    border-radius: 50px;
+    cursor:pointer
+}
+
+#story-text1 {
+    position: relative;
+    left: 25px;
+    top: 5px;
+    font-weight: lighter;
+    font-size: 14px;
+    cursor:pointer
+}
+
+#story-avatar2 {
+    position: relative;
+    left: 125px;
+    bottom: 102px;
+    width: 70px;
+    margin-bottom: none;
+    border-radius: 50px;
+    cursor:pointer
+}
+
+#story-text2 {
+    position: relative;
+    left: 125px;
+    bottom: 117px;
+    font-weight: lighter;
+    font-size: 14px;
+    cursor:pointer
+}
+
+.post {
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    background-color: white;
+    width: 480px;
+    height: 960px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 520px;
+}
+
+#author-avatar {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+#author-name {
+    font-size: 15px;
+    position:relative;
+    bottom: 30px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+#posts-img {
+    position: relative;
+    bottom:35px;
+width: 480px;
+height: 500px;
+}
+
+
+#actions {
+    position: relative;
+    bottom:30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#likedby {
+    position: relative;
+    bottom:40px;
+    margin-left: 44px;
+    font-size: 15px;
+}
+
+b {
+    cursor: pointer;
+}
+
+#likedby-avatar {
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 3px;
+    right: 125px;
+    cursor:pointer
+}
+
+#author-decr {
+    position: relative;
+    bottom:40px;
+    margin-left: 15px;
+}
+
+#view-more {
+    color: rgba(0, 0, 0, 0.418);
+    cursor: pointer;
+    position:relative;
+    margin-left: 15px;
+    bottom:40px;
+}
+
+#comments {
+    position: relative;
+    bottom:40px;
+    margin-left: 15px;
+}
+
+#howold {
+    color: rgba(0, 0, 0, 0.418);
+    font-size: 12px;
+    position: relative;
+    bottom:40px;
+    margin-left: 15px;
+}
+
+hr {
+    position: relative;
+    bottom:40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+#emoji-select {
+    position: relative;
+    bottom:40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#add-comment {
+    border: none;
+    position: relative;
+    bottom: 75px;
+    left: 70px;
+    font-size: 15px;
+}
+
+#submit {
+    border: none;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: white;
+    color: rgba(40, 128, 228, 0.575);
+    position: relative;
+    bottom: 75px;
+    left: 190px;
+}
+
+#avatar-about {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 1125px;
+    left: 1050px;
+    cursor: pointer;
+}
+
+#op-name-about {
+    position: relative;
+    bottom: 1195px;
+    left: 1150px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#about-textblue {
+    position: relative;
+    bottom: 1230px;
+    left: 1400px;
+    font-weight: bolder;
+    color:rgb(56, 143, 241);
+    cursor: pointer;
+}
+
+#suggested-text {
+    position: relative;
+    bottom: 1255px;
+    left: 1050px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+#zobacz {
+    position: relative;
+    bottom: 1309px;
+    left: 1350px;
+    cursor: pointer;
+
+}
